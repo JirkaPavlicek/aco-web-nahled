@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="pmeta.title">Partnerství | Asociace civilní ochrany</title>
+  <meta name="description" content="Hledáme první partnery mezi obcemi, kraji, složkami IZS, školami, firmami a neziskovými organizacemi. Postup spolupráce ve čtyřech krocích." data-i18n-attr="content:pmeta.desc">
+  <meta name="theme-color" content="#FAF6EF">
+  <link rel="preload" href="assets/fonts/SplineSansMono-Variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/Syne-Variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script>if(!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('js-enter');setTimeout(function(){document.documentElement.classList.remove('js-enter')},2500)}</script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#obsah"><span data-i18n="ui.skip">Přeskočit na obsah</span></a>
+
+<header class="nav">
+  <div class="wrap nav__bar">
+    <a class="brand" href="index.html"><span data-i18n="ui.brand">Asociace civilní ochrany</span></a>
+    <nav class="nav__links" aria-label="Hlavní navigace" data-i18n-attr="aria-label:ui.mainnav">
+      <a href="o-asociaci.html"><span data-i18n="nav.about">O asociaci</span></a>
+      <a href="cinnost.html"><span data-i18n="nav.areas">Činnost</span></a>
+      <a href="aktuality.html"><span data-i18n="nav.news">Aktuality</span></a>
+      <a href="financovani.html"><span data-i18n="nav.funding">Financování</span></a>
+      <a href="partnerstvi.html" aria-current="page"><span data-i18n="nav.partners">Partnerství</span></a>
+      <a href="dokumenty.html"><span data-i18n="nav.docs">Dokumenty</span></a>
+    </nav>
+    <div class="langdd lang--bar" data-langdd>
+      <button class="langdd__btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="langdd-bar" aria-label="Jazyk" data-i18n-attr="aria-label:ui.langgroup"><span class="ic ic--globe langdd__globe" aria-hidden="true"></span><span data-langdd-code>CZ</span><span class="ic ic--arrow-right langdd__caret" aria-hidden="true"></span></button>
+      <ul class="langdd__list" id="langdd-bar" role="listbox" aria-label="Jazyk" data-i18n-attr="aria-label:ui.langgroup" hidden>
+        <li class="langdd__opt" role="option" data-lang="cs" lang="cs" aria-selected="true" tabindex="-1">Čeština (CZ)</li>
+        <li class="langdd__opt" role="option" data-lang="en" lang="en" aria-selected="false" tabindex="-1">English (EN)</li>
+        <li class="langdd__opt" role="option" data-lang="pl" lang="pl" aria-selected="false" tabindex="-1">Polski (PL)</li>
+        <li class="langdd__opt" role="option" data-lang="uk" lang="uk" aria-selected="false" tabindex="-1">Українська (UA)</li>
+        <li class="langdd__opt" role="option" data-lang="fi" lang="fi" aria-selected="false" tabindex="-1">Suomi (FI)</li>
+      </ul>
+    </div>
+    <a class="btn btn--primary nav__cta" href="kontakt.html" data-bar-cta><span data-i18n="nav.contact">Kontakt</span><span class="btn__arrow" aria-hidden="true"><span class="ic ic--arrow-right"></span></span></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" data-burger aria-label="Otevřít menu" data-i18n-attr="aria-label:ui.menuOpen"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" data-i18n-attr="aria-label:ui.menu" data-menu>
+  <div class="menu__top">
+    <a class="brand" href="index.html" data-menu-link><span data-i18n="ui.brand">Asociace civilní ochrany</span></a>
+    <button class="burger burger--close" type="button" data-menu-close aria-label="Zavřít menu" data-i18n-attr="aria-label:ui.menuClose"><span></span><span></span></button>
+  </div>
+  <ul class="menu__list">
+    <li style="--i:0"><a href="o-asociaci.html" data-menu-link><span data-i18n="nav.about">O asociaci</span></a></li>
+    <li style="--i:1"><a href="cinnost.html" data-menu-link><span data-i18n="nav.areas">Činnost</span></a></li>
+    <li style="--i:2"><a href="aktuality.html" data-menu-link><span data-i18n="nav.news">Aktuality</span></a></li>
+    <li style="--i:3"><a href="financovani.html" data-menu-link><span data-i18n="nav.funding">Financování</span></a></li>
+    <li style="--i:4"><a href="partnerstvi.html" aria-current="page" data-menu-link><span data-i18n="nav.partners">Partnerství</span></a></li>
+    <li style="--i:5"><a href="dokumenty.html" data-menu-link><span data-i18n="nav.docs">Dokumenty</span></a></li>
+    <li style="--i:6"><a href="kontakt.html" data-menu-link><span data-i18n="nav.contact">Kontakt</span></a></li>
+  </ul>
+  <div class="menu__foot">
+    <div class="langdd langdd--up" data-langdd>
+      <button class="langdd__btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="langdd-menu" aria-label="Jazyk" data-i18n-attr="aria-label:ui.langgroup"><span class="ic ic--globe langdd__globe" aria-hidden="true"></span><span data-langdd-code>CZ</span><span class="ic ic--arrow-right langdd__caret" aria-hidden="true"></span></button>
+      <ul class="langdd__list" id="langdd-menu" role="listbox" aria-label="Jazyk" data-i18n-attr="aria-label:ui.langgroup" hidden>
+        <li class="langdd__opt" role="option" data-lang="cs" lang="cs" aria-selected="true" tabindex="-1">Čeština (CZ)</li>
+        <li class="langdd__opt" role="option" data-lang="en" lang="en" aria-selected="false" tabindex="-1">English (EN)</li>
+        <li class="langdd__opt" role="option" data-lang="pl" lang="pl" aria-selected="false" tabindex="-1">Polski (PL)</li>
+        <li class="langdd__opt" role="option" data-lang="uk" lang="uk" aria-selected="false" tabindex="-1">Українська (UA)</li>
+        <li class="langdd__opt" role="option" data-lang="fi" lang="fi" aria-selected="false" tabindex="-1">Suomi (FI)</li>
+      </ul>
+    </div>
+    <a class="btn btn--primary btn--block" href="kontakt.html" data-menu-link><span data-i18n="cta.contactFull">Kontaktovat nás ke spolupráci</span><span class="btn__arrow" aria-hidden="true"><span class="ic ic--arrow-right"></span></span></a>
+  </div>
+</div>
+
+<main id="obsah">
+  <section class="invite" aria-labelledby="inv-title">
+    <div class="wrap">
+      <h1 class="h1 invite__title" id="inv-title" data-hero="rise" data-i18n="inv.t1">Hledáme partnery mezi vámi.</h1>
+      <p class="invite__mute" data-hero="rise" data-i18n="inv.t2">Váš logotyp tu může být. Staňte se prvním partnerem asociace.</p>
+      <a class="btn btn--primary" href="kontakt.html?tema=partnerstvi" data-hero="rise"><span data-i18n="partners.cta">Stát se partnerem</span><span class="btn__arrow" aria-hidden="true"><span class="ic ic--arrow-right"></span></span></a>
+    </div>
+  </section>
+  <section class="sec" aria-labelledby="types-title">
+    <div class="wrap">
+      <div class="sechead">
+        <h2 class="h2" id="types-title" data-i18n="types.t">S kým chceme spolupracovat</h2>
+      </div>
+      <div class="rule" data-reveal="sweep"></div>
+      <div class="tiles-wrap" role="region" tabindex="0" aria-label="Typy partnerů" data-i18n-attr="aria-label:types.region">
+        <ol class="tiles">
+          <li class="card tile" data-reveal="rise" data-reveal-step="60"><span class="tile__top"><img src="assets/img/thumb-partners.jpg" width="1000" height="1000" alt="" decoding="async"><span class="tile__num" aria-hidden="true"></span></span><p class="tile__desc" data-i18n="ptype.1">Plánování ochrany obyvatel a varování.</p><h3 class="tile__name" data-i18n="partners.c1">Obce a města</h3></li>
+          <li class="card tile" data-reveal="rise" data-reveal-step="60"><span class="tile__top"><img src="assets/img/thumb-contact.jpg" width="1000" height="1000" alt="" decoding="async"><span class="tile__num" aria-hidden="true"></span></span><p class="tile__desc" data-i18n="ptype.2">Koordinace a metodické podklady.</p><h3 class="tile__name" data-i18n="partners.c2">Kraje a státní správa</h3></li>
+          <li class="card tile" data-reveal="rise" data-reveal-step="60"><span class="tile__top"><img src="assets/img/thumb-about.jpg" width="1000" height="1000" alt="" decoding="async"><span class="tile__num" aria-hidden="true"></span></span><p class="tile__desc" data-i18n="ptype.3">Ukázky a nácviky pro veřejnost.</p><h3 class="tile__name" data-i18n="partners.c3">Složky IZS</h3></li>
+          <li class="card tile" data-reveal="rise" data-reveal-step="60"><span class="tile__top"><img src="assets/img/thumb-activity.jpg" width="1000" height="1000" alt="" decoding="async"><span class="tile__num" aria-hidden="true"></span></span><p class="tile__desc" data-i18n="ptype.4">Osvěta pro žáky a učitele.</p><h3 class="tile__name" data-i18n="partners.c4">Školy a vzdělávací instituce</h3></li>
+          <li class="card tile" data-reveal="rise" data-reveal-step="60"><span class="tile__top"><img src="assets/img/thumb-aed.jpg" width="1000" height="1000" alt="" decoding="async"><span class="tile__num" aria-hidden="true"></span></span><p class="tile__desc" data-i18n="ptype.5">Připravenost zaměstnanců.</p><h3 class="tile__name" data-i18n="partners.c5">Firmy a zaměstnavatelé</h3></li>
+          <li class="card tile" data-reveal="rise" data-reveal-step="60"><span class="tile__top"><img src="assets/img/thumb-sandbags.jpg" width="1000" height="1000" alt="" decoding="async"><span class="tile__num" aria-hidden="true"></span></span><p class="tile__desc" data-i18n="ptype.6">Společné akce a osvěta.</p><h3 class="tile__name" data-i18n="partners.c6">Neziskové organizace a spolky</h3></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <section class="sec process" aria-labelledby="process-title" id="postup">
+    <div class="wrap">
+      <div class="sechead">
+        <h2 class="h2" id="process-title"><span data-i18n="process.t1">Jak začneme</span> <span data-i18n="process.t2">spolupracovat</span></h2>
+      </div>
+      <div class="rule" data-reveal="sweep"></div>
+      <ol class="frows frows--steps">
+        <li class="frow" data-reveal="rise" data-reveal-step="60"><span class="frow__step" aria-hidden="true"></span><div><h3 class="frow__title" data-i18n="process.s1t">Napíšete nám</h3><p class="frow__sub" data-i18n="process.s1p">Ve formuláři popíšete, kdo jste a co řešíte.</p></div><span class="box" data-i18n="process.s1b">Formulář</span></li>
+        <li class="frow" data-reveal="rise" data-reveal-step="60"><span class="frow__step" aria-hidden="true"></span><div><h3 class="frow__title" data-i18n="process.s2t">Probereme potřeby</h3><p class="frow__sub" data-i18n="process.s2p">Ozveme se a domluvíme schůzku nebo hovor.</p></div><span class="box" data-i18n="process.s2b">Hovor</span></li>
+        <li class="frow" data-reveal="rise" data-reveal-step="60"><span class="frow__step" aria-hidden="true"></span><div><h3 class="frow__title" data-i18n="process.s3t">Domluvíme formu</h3><p class="frow__sub" data-i18n="process.s3p">Navrhneme formu: akci, osvětu nebo metodickou podporu.</p></div><span class="box" data-i18n="process.s3b">Návrh</span></li>
+        <li class="frow" data-reveal="rise" data-reveal-step="60"><span class="frow__step" aria-hidden="true"></span><div><h3 class="frow__title" data-i18n="process.s4t">Začneme pracovat</h3><p class="frow__sub" data-i18n="process.s4p">Spolupráci potvrdíme písemně.</p></div><span class="box" data-i18n="process.s4b">Písemně</span></li>
+      </ol>
+      <div class="actions" data-reveal="rise"><a class="btn btn--primary" href="kontakt.html?tema=partnerstvi"><span data-i18n="partners.cta">Stát se partnerem</span><span class="btn__arrow" aria-hidden="true"><span class="ic ic--arrow-right"></span></span></a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="fpanel" data-reveal="rise">
+      <div class="fpanel__main">
+        <p class="fpanel__note" data-i18n="foot.note">Máte nápad na spolupráci? Ozvěte se, odpovíme e-mailem.</p>
+        <h2 class="h1 fpanel__title"><span class="ln" data-i18n="foot.t1">Spolupráce</span><span class="ln" data-i18n="foot.t2">začíná zprávou.</span></h2>
+        <ul class="ftags" aria-label="Pro koho" data-i18n-attr="aria-label:foot.tagslabel">
+          <li class="ftag"><span class="sq" aria-hidden="true"></span><span data-i18n="foot.tag1">Úřady a instituce</span></li>
+          <li class="ftag"><span class="sq" aria-hidden="true"></span><span data-i18n="foot.tag2">Firmy a spolky</span></li>
+          <li class="ftag"><span class="sq" aria-hidden="true"></span><span data-i18n="foot.tag3">Veřejnost</span></li>
+        </ul>
+      </div>
+      <div class="fpanel__side">
+        <div class="frame fpanel__photo"><img src="assets/img/contact-shelter-22x25.jpg" width="1056" height="1200" decoding="async" data-reveal="media" alt="Vstup do úkrytu pro civilní obyvatelstvo pod zemním valem" data-i18n-attr="alt:foot.alt"></div>
+        <a class="btn btn--primary btn--block" href="kontakt.html"><span data-i18n="cta.contactFull">Kontaktovat nás ke spolupráci</span><span class="btn__arrow" aria-hidden="true"><span class="ic ic--arrow-right"></span></span></a>
+      </div>
+    </div>
+    <div class="fbar" data-reveal="rise">
+      <a class="brand brand--foot" href="index.html"><span data-i18n="ui.brand">Asociace civilní ochrany</span></a>
+      <nav class="fbar__links" aria-label="Navigace v patičce" data-i18n-attr="aria-label:foot.navlabel">
+        <a href="o-asociaci.html"><span data-i18n="nav.about">O asociaci</span></a>
+        <a href="cinnost.html"><span data-i18n="nav.areas">Činnost</span></a>
+        <a href="aktuality.html"><span data-i18n="nav.news">Aktuality</span></a>
+        <a href="financovani.html"><span data-i18n="nav.funding">Financování</span></a>
+        <a href="partnerstvi.html" aria-current="page"><span data-i18n="nav.partners">Partnerství</span></a>
+        <a href="dokumenty.html"><span data-i18n="nav.docs">Dokumenty</span></a>
+      </nav>
+      <div class="fbar__meta">
+        <span>© 2026 <span data-i18n="ui.brand">Asociace civilní ochrany</span>, z. s.</span>
+        <button class="fbtn" type="button" data-dialog-open="kredity"><span data-i18n="foot.credits">Kredity fotografií</span></button>
+      </div>
+    </div>
+  </div>
+</footer>
+<dialog class="dialog" id="kredity" aria-labelledby="kredity-title">
+  <div class="dialog__head">
+    <h2 class="h3" id="kredity-title" data-i18n="foot.credits">Kredity fotografií</h2>
+    <button class="iconbtn" type="button" data-dialog-close aria-label="Zavřít" data-i18n-attr="aria-label:ui.close"><span class="ic ic--x" aria-hidden="true"></span></button>
+  </div>
+  <ul>
+    <li><span data-i18n="credit.own">Úkryt pro civilní obyvatelstvo (úvod, aktuality, kontakt): archiv asociace, ilustrační snímek</span></li>
+    <li><span data-i18n="credit.about">Cvičení IZS:</span> VendySol, <a href="https://commons.wikimedia.org/wiki/File:Cvi%C4%8Den%C3%AD_IZS.jpg">Wikimedia Commons</a>, CC BY-SA 4.0</li>
+    <li><span data-i18n="credit.a1">Ukázka hasičů:</span> Michal Maňas, <a href="https://commons.wikimedia.org/wiki/File:Hasici_1.jpg">Wikimedia Commons</a>, CC BY 4.0</li>
+    <li><span data-i18n="credit.a2">Povodeň v Praze 2013:</span> Jiří Sedláček, <a href="https://commons.wikimedia.org/wiki/File:Flood_in_Prague_2013,_sand_bags_at_Zenklova_street.JPG">Wikimedia Commons</a>, CC BY-SA 3.0</li>
+    <li><span data-i18n="credit.a3">Elektronická siréna:</span> Czech Siren Tech, <a href="https://commons.wikimedia.org/wiki/File:Elektronick%C3%A1_sir%C3%A9na_1500W_Slavon%C3%ADn.jpg">Wikimedia Commons</a>, CC BY-SA 4.0</li>
+    <li><span data-i18n="credit.a4">Nácvik s AED:</span> 1GNC Münster, <a href="https://commons.wikimedia.org/wiki/File:Green_Days_Medical_Training_Handorf_2013_(19263117066).jpg">Wikimedia Commons</a>, CC BY 2.0</li>
+    <li><span data-i18n="credit.docs">Archivní regály:</span> Roman Deckert, <a href="https://commons.wikimedia.org/wiki/File:CICR-ICRC-WWII-files-Satigny-archive_RomanDeckert09062020.jpg">Wikimedia Commons</a>, CC BY-SA 4.0</li>
+    <li><span data-i18n="credit.tools">Ikony: Phosphor Icons, MIT. Písma: Spline Sans Mono a Syne, pro azbuku JetBrains Mono a Montserrat, SIL Open Font License 1.1.</span></li> <!-- taste-skill-ignore: typeface name in photo credits -->
+  </ul>
+</dialog>
+</body>
+</html>
